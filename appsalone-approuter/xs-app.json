@@ -1,5 +1,11 @@
 {
   "authenticationMethod": "none",
-  "routes": [],
+  "routes": [ {
+    "source": "^/i-sampl/(.*)$",
+    "target": "/i-sampl/$1",
+    "destination": "ISampl_CAP",
+    "authenticationType": "xsuaa",
+    "csrfProtection": false
+  }],
   "welcomeFile": "/comsappappsaloneui"
 }

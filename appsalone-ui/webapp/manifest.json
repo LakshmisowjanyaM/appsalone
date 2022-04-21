@@ -12,7 +12,7 @@
         "resources": "resources.json",
         "dataSources": {
             "mainService": {
-                "uri": "/sap/opu/odata/",
+                "uri": "/i-sampl/",
                 "type": "OData",
                 "settings": {
                     "annotations": [],

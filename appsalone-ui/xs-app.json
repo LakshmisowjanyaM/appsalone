@@ -16,9 +16,10 @@
     },
     {
         "source": "^/i-sampl/(.*)$",
-        "target": "$1",
-        "authenticationType": "none",
-        "destination": "ISampl_CAP"
+        "target": "/i-sampl/$1",
+        "destination": "ISampl_CAP",
+        "authenticationType": "xsuaa",
+        "csrfProtection": false
       },
     {
       "source": "^(.*)$",
